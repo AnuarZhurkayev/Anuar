@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Dark grey background */
+        }
+        .slide {
+            height: 100vh;
+            display: flex;
+            background-color: #333; /* Dark grey background */
+        }
+        .left {
+            flex: 1;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .slide img {
+            max-width: 100%;
+            max-height: 100%;
+            height: auto;
+        }
+        .slide-title {
+            font-size: 3em;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            white-space: nowrap; /* Запрет переноса текста на новую строку */
+            overflow: hidden; /* Скрытие текста, выходящего за границы */
+            text-overflow: ellipsis; /* Отображение многоточия в конце текста, который не умещается */
+        }
+        .slide-text {
+            max-width: 50%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Темный полупрозрачный фон */
+            color: white; /* Белый цвет текста */
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="left">
+            <div class="slide-title">Ануар.Ж</div>
+            <div class="slide-text">
+                <p>Меня зовут Ануар</p>
+                <p>Я - ученик 9Ф класса и я учусь в школе РФМШ.</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="blob:https://web.whatsapp.com/3267b353-b3ab-41b8-8e0a-de502094a93c">
+        </div>
+    </div>
+    <div class="slide">
+        <div class="left">
+            <div class="slide-text">
+                <p>Как я говорил ранее, меня зовут Ануар и мне 15 лет. Я очень люблю играть в волейбол и учить уроки. Я казах и люблю гулять.</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR35XibgRw9FDiLSQDn2ksSfDEGovmUDhar7A&s">
+        </div>
+    </div>
+</body>
+</html>
